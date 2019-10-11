@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mental mood calendar in 2020</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>2020 Mental mood Calendar</h2>
+        <p class="lead">Colour each day depending on what your mood was/is</p>
+
+        <h4>Select mood:</h4>
+        <div class="moods_container">
+            <button class="mood mood_1" id="mood_1"><i class="far fa-laugh-beam"></i></button>
+            <button class="mood mood_2" id="mood_2"><i class="far fa-smile"></i></button>
+            <button class="mood mood_3" id="mood_3"><i class="far fa-meh"></i></button>
+            <button class="mood mood_4" id="mood_4"><i class="far fa-frown"></i></i></button>
+            <button class="mood mood_5" id="mood_5"><i class="far fa-dizzy"></i></button>
+
+        </div>
+        <p class="lead">the click on the circles below</p>
+        <button id="clear" class="action_btn clear"><i class="fas fa-sync-alt"></i></button>
+        <div id="calendar" class="calendar"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
